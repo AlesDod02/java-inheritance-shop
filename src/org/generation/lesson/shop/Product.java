@@ -14,7 +14,7 @@ public class Product {
     private BigDecimal price;
     private BigDecimal vat;
 
-    private Category category;
+    public Category category;
 
 
     // COSTRUTTORI

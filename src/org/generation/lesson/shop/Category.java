@@ -2,8 +2,8 @@ package org.generation.lesson.shop;
 
 public class Category {
     // ATTRIBUTI
-    private String name;
-    private String description;
+    public String name;
+    public String description;
 
     // COSTRUTTORI
 

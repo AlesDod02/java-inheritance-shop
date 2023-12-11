@@ -30,4 +30,15 @@ public class Cuffie extends Product{
     public void setWireless(boolean wireless) {
         this.wireless = wireless;
     }
+    public Category getCategory() {
+        return category;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
+    }
+    @Override
+    public String toString(){
+        return "code and name:" +getFullName() + " prezzo con iva: " + getFullPrice() + "€ categoria "+ category.getName() +" descrizione categoria:("+category.getDescription()+") "+"color:"+ getColor()+ " wireless= "+ isWireless();
+    }
 }
